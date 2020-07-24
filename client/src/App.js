@@ -2,6 +2,10 @@ import React from 'react';
 import './App.css';
 import {Route} from 'react-router-dom'
 import Home from './Pages/Home'
+import Skills from './Pages/Skills'
+import Work from './Pages/Work'
+import Header from './Shared/Header'
+import './tailwind.output.css';
 
 function App() {
   return (
@@ -10,12 +14,13 @@ function App() {
       <Route exact path="/" >
      <Home/>
      </Route>
-     {/* <Route >
-     <Home/>
+     <Route exact path="/skills" >
+     <Skills/>
      </Route>
-     <Route >
-     <Home/>
-     </Route> */}
+     <Route exact path="/Work" >
+     <Work/>
+     </Route>
+     
     </div>
   );
 }
