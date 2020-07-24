@@ -1,0 +1,25 @@
+{
+  "name": "Nikita-Savelev",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "postcss css/tailwind.css -o public/build/tailwind.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NsavelevJs/Nikita-Savelev.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NsavelevJs/Nikita-Savelev/issues"
+  },
+  "homepage": "https://github.com/NsavelevJs/Nikita-Savelev#readme",
+  "dependencies": {
+    "react": "^16.13.1",
+    "tailwindcss": "^1.5.2",
+    "yarn": "^1.22.4"
+  }
+}
