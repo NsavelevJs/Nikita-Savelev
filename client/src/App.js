@@ -18,7 +18,7 @@ function App() {
      <Route exact path="/skills" >
      <Skills/>
      </Route>
-     <Route exact path="/Work" >
+     <Route exact path="/work" >
      <Work/>
      </Route>
      <Route exact path="/contact" >
