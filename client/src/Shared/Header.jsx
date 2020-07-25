@@ -32,7 +32,7 @@ class Header extends Component {
           <li class="mr-1">
             <a
               class="bg-white inline-block py-2 px-4 text-orange-500 hover:text-orange-800 font-semibold"
-              href="#"
+              href="/contact"
             >
               Contact Me
             </a>
