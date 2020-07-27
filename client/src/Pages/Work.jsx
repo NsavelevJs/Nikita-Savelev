@@ -19,9 +19,9 @@ class Work extends Component {
         </div>
         <div class="px-6 py-4 flex justify-center">
           <button>
-            <span class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">
+            <a href='https://github.com/NsavelevJs/Read-And-butter/blob/master/README.md'class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">
               GitHub
-            </span>
+            </a>
           </button>
           <button>
             <a target='_blank' href='http://read-and-butter.surge.sh/' class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">
@@ -45,12 +45,12 @@ class Work extends Component {
         </div>
         <div class="px-6 py-4 flex justify-center">
           <button>
-            <span class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">
+            <a target='_blank' href='https://github.com/NsavelevJs/Nikita-Savelev/blob/master/client/README.md' class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">
               GitHub
-            </span>
+            </a>
           </button>
           <button>
-            <a target='_blank' href='' class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">
+            <a target='_blank' href='/' class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">
               Website
             </a>
           </button>
@@ -59,7 +59,7 @@ class Work extends Component {
       <div class="max-w-sm rounded overflow-hidden shadow-lg mx-auto p-8">
         <img
           class="w-full"
-          src="https://i.imgur.com/YzuxXYt.png"
+          src="https://i.imgur.com/8u1diR5.png"
           alt="Todays weather apps"
         />
         <div class="px-6 py-4">
@@ -84,23 +84,23 @@ class Work extends Component {
       <div class="max-w-sm rounded overflow-hidden shadow-lg mx-auto p-8">
         <img
           class="w-full"
-          src="/img/card-top.jpg"
+          src="https://i.imgur.com/xUFvesq.png"
           alt=""
         />
         <div class="px-6 py-4">
-          <div class="font-bold text-xl mb-2">Read&&Butter</div>
+          <div class="font-bold text-xl mb-2">Recipe Box</div>
           <p class="text-gray-700 text-base">
-            An open medium for anyone to post. No likes no comments no obsession. Just post and enjoy.
+           Recipe app that contains step by step instructions on some really nice recipes.
           </p>
         </div>
         <div class="px-6 py-4 flex justify-center">
           <button>
-            <a src='' class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">
+            <a target='_blank' href='https://github.com/NsavelevJs/Recipe-box/blob/master/p3-worksheet.md' class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">
               GitHub
             </a>
           </button>
           <button>
-            <a target='_blank' href='http://read-and-butter.surge.sh/' class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">
+            <a target='_blank' href='http://foodiesandgoodiesrecipebox.surge.sh/' class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">
               Website
             </a>
           </button>
