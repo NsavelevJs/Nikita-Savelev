@@ -39,6 +39,21 @@ class Contact extends Component {
               LinkedIn: Nikita Savelev
             </a>
           </div>
+          <div className="inline-flex hover: text-orange-500 border-b py-4 pl-4">
+            <span
+              className="inline-flex hover text-black hover:font-semibold"
+            >
+              Phone Number: (917) 495-0056
+            </span>
+          </div>
+          <div className="inline-flex hover: text-orange-500 border-b py-4 pl-4">
+            <span
+              className="inline-flex hover text-black hover:font-semibold"
+            >
+              Email: NsavelevJS@gmail.com
+            </span>
+          </div>
+          
 
 {/* Leaving commented out for now. Will need to it make functional. */}
 
