@@ -40,7 +40,9 @@ class Contact extends Component {
             </a>
           </div>
 
-          <form class="w-full max-w-lg flex flex-col mx-auto pt-20">
+{/* Leaving commented out for now. Will need to it make functional. */}
+
+          {/* <form class="w-full max-w-lg flex flex-col mx-auto pt-20">
             <div class="flex flex-wrap -mx-3 mb-6">
               <div class="w-full md:w-1/2 px-3 mb-6 md:mb-0">
                 <label
@@ -93,7 +95,9 @@ class Contact extends Component {
             <button class="bg-blue-500 hover:bg-blue-400 text-white font-bold py-2 px-4 border-b-4 border-blue-700 hover:border-blue-500 rounded">
               Send it!
             </button>
-          </form>
+          </form> */}
+
+
         </div>
       </div>
     );
