@@ -23,7 +23,7 @@ class Work extends Component {
             <button>
               <a
                 href="https://github.com/NsavelevJs/Read-And-butter/blob/master/README.md"
-                className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full"
+                className="bg-teal-400 hover:bg-teal-600 text-white font-bold py-2 px-4 rounded-full m-2"
               >
                 GitHub
               </a>
@@ -32,7 +32,7 @@ class Work extends Component {
               <a
                 target="_blank"
                 href="http://read-and-butter.surge.sh/"
-                className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full"
+                className="bg-teal-400 hover:bg-teal-600  text-white font-bold py-2 px-4 rounded-full m-2"
               >
                 Website
               </a>
@@ -59,7 +59,7 @@ class Work extends Component {
               <a
                 target="_blank"
                 href="https://github.com/NsavelevJs/Nikita-Savelev/blob/master/client/README.md"
-                className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full"
+                className="bg-teal-400 hover:bg-teal-600  text-white font-bold py-2 px-4 rounded-full m-2"
               >
                 GitHub
               </a>
@@ -68,7 +68,7 @@ class Work extends Component {
               <a
                 target="_blank"
                 href="/"
-                className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full"
+                className="bg-teal-400 hover:bg-teal-600  text-white font-bold py-2 px-4 rounded-full m-2"
               >
                 Website
               </a>
@@ -89,7 +89,7 @@ class Work extends Component {
           </div>
           <div className="px-6 py-4 flex justify-center">
             <button>
-              <span className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">
+              <span className="bg-teal-400 hover:bg-teal-600  text-white font-bold py-2 px-4 rounded-full m-2">
                 GitHub
               </span>
             </button>
@@ -97,7 +97,7 @@ class Work extends Component {
               <a
                 target="_blank"
                 href="https://nsavelevjs.github.io/Todays-Weather/"
-                className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full"
+                className="bg-teal-400 hover:bg-teal-600  text-white font-bold py-2 px-4 rounded-full m-2"
               >
                 Website
               </a>
@@ -122,7 +122,7 @@ class Work extends Component {
               <a
                 target="_blank"
                 href="https://github.com/NsavelevJs/Recipe-box/blob/master/p3-worksheet.md"
-                className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full"
+                className="bg-teal-400 hover:bg-teal-600 text-white font-bold py-2 px-4 rounded-full m-2"
               >
                 GitHub
               </a>
@@ -131,7 +131,7 @@ class Work extends Component {
               <a
                 target="_blank"
                 href="http://foodiesandgoodiesrecipebox.surge.sh/"
-                className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full"
+                className="bg-teal-400 hover:bg-teal-600 text-white font-bold py-2 px-4 rounded-full m-2"
               >
                 Website
               </a>

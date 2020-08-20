@@ -40,22 +40,17 @@ class Contact extends Component {
             </a>
           </div>
           <div className="inline-flex hover: text-orange-500 border-b py-4 pl-4">
-            <span
-              className="inline-flex hover text-black hover:font-semibold"
-            >
+            <span className="inline-flex hover text-black hover:font-semibold">
               Phone Number: (917) 495-0056
             </span>
           </div>
           <div className="inline-flex hover: text-orange-500 border-b py-4 pl-4">
-            <span
-              className="inline-flex hover text-black hover:font-semibold"
-            >
+            <span className="inline-flex hover text-black hover:font-semibold">
               Email: NsavelevJS@gmail.com
             </span>
           </div>
-          
 
-{/* Leaving commented out for now. Will need to it make functional. */}
+          {/* Leaving commented out for now. Will need to it make functional. */}
 
           {/* <form class="w-full max-w-lg flex flex-col mx-auto pt-20">
             <div class="flex flex-wrap -mx-3 mb-6">
@@ -111,8 +106,6 @@ class Contact extends Component {
               Send it!
             </button>
           </form> */}
-
-
         </div>
       </div>
     );

@@ -3,13 +3,13 @@ import React, { Component } from "react";
 class Skills extends Component {
   render() {
     return (
-      <div className="container mx-auto p-8 ">
+      <div className="container mx-auto p-6">
         <div className="px-4 py-4 mx-auto">
-          <div className="grid sm:h-24 sm:grid-flow-row sm:gap-4 sm:grid-cols-3 grid-cols-1 md:grid-cols-4">
+          <div className="grid sm:h-24 sm:grid-flow-row sm:gap-4 sm:grid-cols-3 grid-cols-1 md:grid-cols-3">
             <div className="shadow-lg flex flex-col justify-center bg-white border border-gray-300 rounded">
               <div className="flex w-full h-full">
                 <div className="w-1/3 flex items-center justify-center bg-yellow-300">
-                  <p className="text-3xl font-semibold text-center text-black">
+                  <p className="text-3xl font-semibold text-center text-black ">
                     JS
                   </p>
                 </div>

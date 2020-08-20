@@ -7,7 +7,7 @@ class Header extends Component {
         <ul className="flex border-b ">
           <li className="-mb-px mr-5">
             <a
-              className="bg-white inline-block border-l border-t border-r rounded-t py-2 px-4 text-orange-500 font-semibold"
+              className="bg-white inline-block py-2 px-4 text-orange-500 hover:text-orange-800 font-semibold"
               href="/"
             >
               Nikita Savelev

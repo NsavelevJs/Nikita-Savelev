@@ -3,8 +3,8 @@ import React, { Component } from "react";
 class Home extends Component {
   render() {
     return (
-      // max-w-sm w-full lg:max-w-full lg:flex
-      <div className=" mx-auto justify-center max-w-sm lg:max-w-full lg:flex sm:flex-wrap ">
+      
+      <div className="mx-auto justify-center max-w-sm lg:max-w-full lg:flex sm:flex-wrap ">
         <div className="max-w-sm rounded overflow-hidden shadow-lg">
           <img
             className="w-full"
@@ -22,7 +22,7 @@ class Home extends Component {
         </div>
         <div className="max-w-sm w-full lg:max-w-full lg:flex flex-wrap justify-center flex justify-center max-w-sm lg:max-w-full lg:flex p-8 sm:flex-wrap">
           <div className="max-w-sm rounded overflow-hidden shadow-lg">
-            <p className=" text-gray-700 text-base text-center">
+            <p className=" text-gray-700 text-base text-center px-6 py-4">
               I am an enthusiastic and self-started back-end software engineer
               with expertise in the M.E.R.N. stack (Mongo.js, Express.js, React
               and Node.js), Ruby, and Ruby on Rails. I love to learn, both
