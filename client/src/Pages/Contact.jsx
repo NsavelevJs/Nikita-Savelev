@@ -15,6 +15,7 @@ class Contact extends Component {
           <div className="inline-flex hover:text-orange-500 border-b py-4 pl-4">
             <a
               target="_blank"
+              rel='noopener noreferrer'
               href="https://www.google.com/maps/place/Brooklyn,+NY/@40.6451594,-74.0850816,11z/data=!3m1!4b1!4m5!3m4!1s0x89c24416947c2109:0x82765c7404007886!8m2!3d40.6781784!4d-73.9441579"
               className="inline-flex hover text-black hover:font-semibold "
             >
@@ -24,6 +25,7 @@ class Contact extends Component {
           <div className="inline-flex hover: text-orange-500 border-b py-4 pl-4">
             <a
               target="_blank"
+              rel='noopener noreferrer'
               href="https://github.com/NsavelevJs/"
               className="inline-flex hover text-black hover:font-semibold"
             >
@@ -33,6 +35,7 @@ class Contact extends Component {
           <div className="inline-flex hover: text-orange-500 border-b py-4 pl-4">
             <a
               target="_blank"
+              rel='noopener noreferrer'
               href="https://www.linkedin.com/in/nikita-savelev-129994140?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3Brvo0mRjpR9OrFkv4TtVVWw%3D%3D"
               className="inline-flex hover text-black hover:font-semibold"
             >
