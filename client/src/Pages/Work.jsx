@@ -33,7 +33,7 @@ class Work extends Component {
               <a
                 target="_blank"
                 rel='noopener noreferrer'
-                href="https://5f4e606234ceb22409fcbe73--fervent-golick-aa38cc.netlify.app/"
+                href="http://pick-up.surge.sh/"
                 className="bg-teal-400 hover:bg-teal-600  text-white font-bold py-2 px-4 rounded-full m-2"
               >
                 Website
