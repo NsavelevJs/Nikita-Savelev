@@ -5,23 +5,14 @@ class Contact extends Component {
     return (
       <div className="flex justify-center">
         <div className="flex flex-col lg:w-1/2 pr-4">
-          <div className="text-5xl text-orange-500 font-mono px-10 py-8 underline flex justify-center">
+          <div className="text-5xl text-blue-800 px-10 py-8 flex justify-center">
             Contact Me
           </div>
           <div className="hyphens-text leading pb-4 flex justify-center">
             {" "}
             Want to chat? Lets grab coffee!{" "}
           </div>
-          <div className="inline-flex hover:text-orange-500 border-b py-4 pl-4">
-            <a
-              target="_blank"
-              rel='noopener noreferrer'
-              href="https://www.google.com/maps/place/Brooklyn,+NY/@40.6451594,-74.0850816,11z/data=!3m1!4b1!4m5!3m4!1s0x89c24416947c2109:0x82765c7404007886!8m2!3d40.6781784!4d-73.9441579"
-              className="inline-flex hover text-black hover:font-semibold "
-            >
-              Location: Brooklyn, NY
-            </a>
-          </div>
+          
           <div className="inline-flex hover: text-orange-500 border-b py-4 pl-4">
             <a
               target="_blank"
