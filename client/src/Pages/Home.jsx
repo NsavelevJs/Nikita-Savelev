@@ -1,27 +1,33 @@
 import React, { Component } from "react";
-
+import TextLoop from "react-text-loop";
 class Home extends Component {
   render() {
     return (
       <div>
-        <div className="fmx-auto sm:mx-4 text-center text-black pt-16 md:pt-32">
+        <div className="mx-auto sm:mx-4 text-center text-black pt-16 md:pt-32">
           <div className="flex flex-col md:flex-row justify-center">
             <div className="max-w-xs mx-auto md:mx-0 md:w-1/2">
               <img
-                className="h-48 w-48 rounded-lg shadow-xl sm:h-64 block mx-auto"
+                className="rounded-lg shadow-xl mx-auto sm:w-64"
                 src="https://i.imgur.com/2Hs0FYL.jpg"
                 alt="Nikita Savelev"
               />
             </div>
             <div className="md:w-1/2 mx-auto md:mx-0 max-w-lg md:pl-4">
+             
               <div className="tracking-wider text-3xl lg:text-4xl font-mono pt-10 md:pt-0 md:text-left">
-               |Software Developer🐱‍💻|<br/>
-               |QA Engineer🕵🏻‍♂️|<br/>
-               |IT Technician🖥️|<br/>
-               |Coffee drinker☕|
+               Hi! Im Nikita and I'm a-
+               <TextLoop springConfig={{ stiffness: 200}}>
+                    <span> Software Developer🐱‍💻</span>
+                    <span>QA Engineer🕵🏻‍♂️</span>
+                    <span> IT Technician🖥️</span>
+                    <span> Coffee Drinker☕</span>
+               </TextLoop>
+           
+
               </div>
               <div>
-                <div className="leading-normal text-center hyphens-text pt-2 px-3 md:text-left md:px-0">
+                <div className="m-3 leading-normal text-center hyphens-text pt-2 px-3 md:text-left md:px-0">
                   I am an enthusiastic and self-started Software Developer with
                   expertise in the M.E.R.N. stack (Mongo.js, Express.js, React
                   and Node.js), Ruby, and Ruby on Rails. I'm also a dedicated QA

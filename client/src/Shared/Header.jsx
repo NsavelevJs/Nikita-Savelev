@@ -1,16 +1,16 @@
 import React from "react";
 import $ from "jquery";
 
-export default function Header({ fixed }) {
+export default function Header() {
   const [navbarOpen, setNavbarOpen] = React.useState(false);
 
   return (
-    <div className="z-10">
-      <nav className="relative flex flex-wrap items-center justify-between px-2 py-3 navbar-expand-lg bg-indigo-700 z-10">
+    <div className="">
+      <nav className=" relative flex flex-wrap items-center justify-between px-2 py-3 navbar-expand-lg bg-indigo-700 z-10">
         <div className="container px-4 mx-auto flex flex-wrap items-center justify-between">
-          <div className="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
+          <div className=" w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
             <a
-              className="text-sm font-bold leading-relaxed inline-block mr-4 py-2 whitespace-no-wrap uppercase text-white"
+              className=" text-sm font-bold leading-relaxed inline-block mr-4 py-2 whitespace-no-wrap uppercase text-white"
               href="/"
             >
               Nikita Savelev
@@ -44,6 +44,15 @@ export default function Header({ fixed }) {
                 >
                   <i className="text-lg leading-lg text-white opacity-75"></i>
                   <span className="ml-2">Skills</span>
+                </a>
+              </li>
+              <li className="nav-item">
+                <a
+                  className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75"
+                  href="https://drive.google.com/file/d/1fGLOcv7qkxqbtnMAwN0lJFEEUir6xX9J/view?usp=sharing"
+                >
+                  <i className="text-lg leading-lg text-white opacity-75"></i>
+                  <span className="ml-2">Resume</span>
                 </a>
               </li>
               <li className="nav-item">

@@ -14,12 +14,13 @@ class Work extends Component {
 
           <div className="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4">
             <div className="p-4 md:w-1/3 md:mb-0 mb-6 flex flex-col justify-center items-center max-w-sm mx-auto">
-              <div
+              <a
                 className="bg-gray-300 h-56 w-full rounded-lg shadow-md bg-cover bg-center"
                 style={{
                   backgroundImage: "url(https://i.imgur.com/pRuBC6O.png",
                 }}
-              ></div>
+                href="https://pick-up.surge.sh"
+              ></a>
 
               <div className=" w-70 bg-white -mt-10 shadow-lg rounded-lg overflow-hidden p-5">
                 <div className="header-content inline-flex ">
@@ -69,12 +70,13 @@ class Work extends Component {
             </div>
 
             <div className="p-4 md:w-1/3 md:mb-0 mb-6 flex flex-col justify-center items-center max-w-sm mx-auto">
-              <div
+              <a
                 className="bg-gray-300 h-56 w-full rounded-lg shadow-md bg-cover bg-center"
                 style={{
                   backgroundImage: "url(https://i.imgur.com/YtL9W3M.png",
                 }}
-              ></div>
+                href="http://read-and-butter.surge.sh/"
+              ></a>
 
               <div className=" w-70 bg-white -mt-10 shadow-lg rounded-lg overflow-hidden p-5">
                 <div className="header-content inline-flex ">
@@ -137,12 +139,13 @@ class Work extends Component {
             </div>
 
             <div className="p-4 md:w-1/3 md:mb-0 mb-6 flex flex-col justify-center items-center max-w-sm mx-auto">
-              <div
+              <a
                 className="bg-gray-300 h-56 w-full rounded-lg shadow-md bg-cover bg-center"
                 style={{
                   backgroundImage: "url(https://i.imgur.com/8u1diR5.png",
                 }}
-              ></div>
+                href="https://nsavelevjs.github.io/Todays-Weather/"
+              ></a>
 
               <div className=" w-70 bg-white -mt-10 shadow-lg rounded-lg overflow-hidden p-5">
                 <div className="header-content inline-flex ">
@@ -200,12 +203,13 @@ class Work extends Component {
             </div>
 
             <div className="p-4 md:w-1/3 md:mb-0 mb-6 flex flex-col justify-center items-center max-w-sm mx-auto">
-              <div
+              <a
                 className="bg-gray-300 h-56 w-full rounded-lg shadow-md bg-cover bg-center"
                 style={{
                   backgroundImage: "url(https://i.imgur.com/xUFvesq.png",
                 }}
-              ></div>
+                href="http://foodiesandgoodiesrecipebox.surge.sh/"
+              ></a>
 
               <div className=" w-70 bg-white -mt-10 shadow-lg rounded-lg overflow-hidden p-5">
                 <div className="header-content inline-flex ">
@@ -271,13 +275,14 @@ class Work extends Component {
               </div>
             </div>
             <div className="p-4 md:w-1/3 md:mb-0 mb-6 flex flex-col justify-center items-center max-w-sm mx-auto">
-              <div
+              <a
                 className="bg-gray-300 h-56 w-full rounded-lg shadow-md bg-cover bg-center"
                 style={{
                   backgroundImage:
                     "url(https://i.pinimg.com/originals/00/79/6c/00796c794bd05ba60af2f09e96e7246a.gif",
                 }}
-              ></div>
+                href="http://nicks-duck-hunt.surge.sh/"
+              ></a>
 
               <div className=" w-70 bg-white -mt-10 shadow-lg rounded-lg overflow-hidden p-5">
                 <div className="header-content inline-flex ">
