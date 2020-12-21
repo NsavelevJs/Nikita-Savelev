@@ -49,7 +49,7 @@ export default function Header() {
               <li className="nav-item">
                 <a
                   className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75"
-                  href="https://drive.google.com/file/d/1fGLOcv7qkxqbtnMAwN0lJFEEUir6xX9J/view?usp=sharing"
+                  href="https://drive.google.com/file/d/1Q7TW5o7HGL3paH691_7yNi4wkRdhzg08/view?usp=sharing"
                 >
                   <i className="text-lg leading-lg text-white opacity-75"></i>
                   <span className="ml-2">Resume</span>
