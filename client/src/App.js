@@ -1,6 +1,6 @@
 import React from "react";
 import "./App.css";
-import { Route } from "react-router-dom";
+import { Route, Routes } from "react-router-dom";
 import Home from "./Pages/Home";
 import Skills from "./Pages/Skills";
 import Work from "./Pages/Work";
@@ -12,18 +12,18 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <Route exact path="/">
-        <Home />
-      </Route>
-      <Route exact path="/skills">
-        <Skills />
-      </Route>
-      <Route exact path="/work">
-        <Work />
-      </Route>
-      <Route exact path="/contact">
-        <Contact />
-      </Route>
+     <Routes>
+      <Route exact path="/" element={<Home />}/>
+        </Routes>
+        <Routes>
+      <Route exact path="/skills" element={<Skills />}/>
+        </Routes>
+        <Routes>
+      <Route exact path="/work" element={<Work />}/>
+        </Routes>
+        <Routes>
+      <Route exact path="/contact" element={<Contact />}/>
+        </Routes>
     </div>
   );
 }
